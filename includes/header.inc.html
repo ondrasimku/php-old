@@ -1,0 +1,49 @@
+<div class="header">
+  <nav>
+    <ul>
+      <li><a href="index.php" id="navbutton">&lt; Home &gt;</a></li>
+      <li><a href="#news" id="navbutton">&lt; News &gt;</a></li>
+      <li><a href="#contact" id="navbutton">&lt; Contact &gt;</a></li>
+      <?php if (isset($_SESSION["username"])){?>
+      <li>
+         <div class="dropdown">
+           <a class="dropbtn" onclick="myFunction()">
+             <?php echo htmlspecialchars($usersView->getUsername());?>
+            </a>
+           <div class="dropdown-content" id="myDropdown">
+             <a href="login.php?odhlasit=1">Logout</a>
+             <a href="edit_profile.php">Edit profile</a>
+             <a href="my_jobs.php">My jobs</a>
+           </div>
+         </div>
+       </li>
+     <?php } else {?>
+       <li>
+          <div class="dropdown">
+            <a class="dropbtn" onclick="myFunction()"> My Account </a>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="login.php">Login</a>
+              <a href="register.php">Register</a>
+            </div>
+          </div>
+        </li>
+     <?php }?>
+
+
+    </ul>
+  </nav>
+
+  <div class="parallax">
+
+    <div class="header-text">
+      <h1>Penta Smurf</h1>
+        <div class="headerButtonDiv" id="jedna">
+        <a href="get_coach.php" class="button">GET COACH</a>
+        </div>
+        <div class="headerButtonDiv" id="dva">
+        <a href="register.php" class="button">WHO ARE WE?</a>
+        </div>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,37 @@
+table
+{
+  margin: auto;
+  color: #9494a4;
+  font-size: 2vh;
+  border-spacing: 0.3vh;
+  table-layout: fixed;
+  border: 2px solid grey;
+  border-collapse: collapse;
+}
+
+td
+{
+  padding: 1vh 2.1vw 1vh 2.1vw;
+  text-align: center;
+  border: 2px solid grey;
+}
+
+th
+{
+  padding: 1.3vh 2.5vw 1.3vh 2.5vw;
+  background: #2c3e50;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glowText 1s ease-in-out infinite alternate;
+  -moz-animation: glowText 1s ease-in-out infinite alternate;
+  animation: glowText 1s ease-in-out infinite alternate;
+}
+
+.narrow
+{
+  padding: 0.4vh 1.2vw 0.4vh 1.2vw;
+}
+
+@-webkit-keyframes glowText {
+    text-shadow: 0 0 0.3vh #fff, 0 0 0.4vh #ff4da6, 0 0 0.5vh #ff4da6, 0 0 0.7vh #ff4da6, 0 0 0.8vh #ff4da6, 0 0 0.9vh #ff4da6, 0 0 1vh #ff4da6;
+}

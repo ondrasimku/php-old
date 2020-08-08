@@ -1,0 +1,99 @@
+table
+{
+  margin: auto;
+  color: #9494a4;
+  font-size: 2vh;
+  border-spacing: 0.3vh;
+  table-layout: fixed;
+}
+
+table.edit
+{
+  margin: auto;
+  color: #9494a4;
+  font-size: 2vh;
+  border-spacing: 0.3vh;
+  table-layout: fixed;
+}
+
+table.edit td
+{
+  padding: 1.3vh 5.5vw 1.3vh 3vw;
+  width: 10vw;
+  height: 4vh;
+}
+
+td
+{
+  padding: 1.3vh 5.5vw 1.3vh 5.5vw;
+  width: 20vw;
+  height: 3vh;
+}
+
+.editButton
+{
+  width: 3vw;
+  background: none;
+  border: 0.2vh solid #9c1c8d;
+  color: white;
+  font-size: 1.6vh;
+  border-radius: 2vh;
+  padding: 0.2vh 0.2vh 0.2vh 0.2vh;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  color: #9494a4;
+}
+
+.editButton:hover
+{
+  background: rgb(182, 23, 139);
+  transition-duration: 0.5s;
+}
+
+input.edit
+{
+  line-height: 1.1vh;
+  box-sizing: content-box;
+  border: none;
+  outline: none;
+  background: none;
+  color: #9494a4;
+  font-size: 2vh;
+  width: 100%;
+  float: left;
+  margin: 0 0;
+}
+
+
+div.textEdit
+{
+  width: 26vh;
+  overflow: hidden;
+  height: 4vh;
+  font-size: 1.8vh;
+  padding-top: 1vh;
+  padding-left: 0vh;
+  border-bottom: 0.3vh solid #9c1c8d;
+}
+
+button.ulozit
+{
+  margin-left: 22vw;
+  margin-top: 3vw;
+  width: 7vw;
+  background: none;
+  border: 0.2vh solid #9c1c8d;
+  color: white;
+  padding: 1vh;
+  font-size: 2.2vh;
+  border-radius: 2vh;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  color: #9494a4;
+}
+
+button.ulozit:hover
+{
+  background: rgb(182, 23, 139);
+  transition-duration: 0.5s;
+}

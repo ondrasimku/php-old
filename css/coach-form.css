@@ -1,0 +1,180 @@
+
+div.coach-box
+{
+  line-height: 3vh;
+  text-align: center;
+  color: #9494a4;
+  font-size: 1.8vh;
+  border: 2px solid gray;
+  height: 50vh;
+  width: 100%;
+}
+
+
+table
+{
+  margin: auto;
+  color: #9494a4;
+  font-size: 2vh;
+  border-spacing: 0.3vh;
+  table-layout: fixed;
+  width: 20vw;
+}
+
+table.edit
+{
+  margin: auto;
+  color: #9494a4;
+  font-size: 2vh;
+  border-spacing: 0.3vh;
+  table-layout: fixed;
+}
+
+div.textEdit
+{
+  width: 26vh;
+  overflow: hidden;
+  height: 4vh;
+  font-size: 1.8vh;
+  padding-top: 1vh;
+  padding-left: 0vh;
+  border-bottom: 0.3vh solid #2c3e50;
+}
+
+input.edit
+{
+  line-height: 1.1vh;
+  box-sizing: content-box;
+  border: none;
+  outline: none;
+  background: none;
+  color: #9494a4;
+  font-size: 1.7vh;
+  width: 100%;
+  float: left;
+  margin: 0 0;
+}
+
+td
+{
+  padding: 1.3vh 2.5vw 1.3vh 2.5vw;
+  width: 10vw;
+  height: 5vh;
+}
+
+td.option
+{
+  width: 2vw;
+}
+
+
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #2c3e50;
+  background-image: none;
+}
+/* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+}
+/* Custom Select */
+.select {
+  position: relative;
+  display: flex;
+  width: 14vw;
+  height: 4vh;
+  line-height: 2;
+  background: #2c3e50;
+  overflow: hidden;
+  border-radius: .25em;
+}
+select {
+  flex: 1;
+  padding: 0 1vh;
+  color: #9494a4;
+  cursor: pointer;
+  font-size: 1.6vh;
+}
+/* Arrow */
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #34495e;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+/* Transition */
+.select:hover::after {
+  color: #f13bce;
+}
+
+.textarea
+{
+  margin: auto;
+  width: 25vw;
+  height: 20vh;
+  margin-top: 4vh;
+  margin-left: 12.5vw;
+  padding-bottom: 10vh;
+  border-radius: 2vh;
+}
+
+textarea
+{
+  width: 100%;
+  height: 100%;
+  resize: none;
+  background: #2c3e50;
+  border-radius: 2vh;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  font-size: 1.6vh;
+  color: #9494a4;
+}
+
+textarea:focus
+{
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+div.submit
+{
+  text-align: center;
+}
+
+.btn {
+  width: 12vw;
+  background: none;
+
+  border: 0.2vh solid #2c3e50;
+  color: white;
+  padding: 1vh;
+  font-size: 2.2vh;
+  border-radius: 2vh;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  color: #9494a4;
+}
+
+.btn:hover {
+  border: 0.2vh solid rgb(182, 23, 139);
+  transition-duration: 0.5s;
+  color: rgb(182, 23, 139);
+}
